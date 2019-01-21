@@ -1,5 +1,5 @@
 .different-body-color {
-	background: #c7dfff;
+	background: #b3bbc0;
 	color: #333;
 	font: 100% Arial, Sans Serif;
 	height: 100vh;
@@ -320,7 +320,7 @@ path {
 	/* fill: #fff; */
 	stroke-dasharray: 500;
 	opacity: 5;
-	animation: animate 2.5s cubic-bezier(.11,.39,.59,.23);
+	animation: animate 3s cubic-bezier(.27,.65,1,.46);
 	stroke-opacity: .5;
 	fill-opacity: 0.5;
   	
@@ -341,7 +341,7 @@ path {
 	0% {
 		opacity: 0;
 		fill: none;
-		stroke-dashoffset: 500;
+		stroke-dashoffset: 700;
 	}
 	
 	30% {
@@ -353,15 +353,17 @@ path {
 	
 	90% {
 		
-		stroke-dashoffset: 200;
-		fill: rgba(255, 255, 255, 0);
-		stroke-width: .6%;
+		stroke-dashoffset: 25;
+		fill: rgba(255, 255, 255, 0.021);
+		stroke-width: .4%;
 		
 	}
 	
 	100% {
 		opacity: 0;
 		stroke-dashoffset: 0;
+		fill: rgba(255, 255, 255, 0.014);
+
 	}
 }
 
@@ -409,6 +411,7 @@ path {
 	
 	#main-page{
 		margin-top: 15%;
+		opacity: .93;
 	}
 
 
@@ -422,6 +425,7 @@ path {
 
 	#main-page{
 		margin-top: 15%;
+		opacity: .9;
 	}
 
 	.about-me-text, .card-body{
@@ -449,6 +453,7 @@ path {
 	
 	#main-page{
 		margin-top: 15%;
+		opacity: .9;
 	}
 
 
@@ -463,6 +468,11 @@ path {
 
 	#main-page{
 		margin-top: 20%;
+		opacity: .89;
+	}
+
+	.card.mt-2 .card-body img{
+		width: 100%;
 	}
 				
 }
@@ -474,6 +484,15 @@ path {
 
 	#main-page{
 		margin-top: 30%;
+		opacity: .88;
+	}
+
+	.card-header, .about-me-text{
+		color: black;
+	}
+
+	.card.mt-2 .card-body img{
+		width: 100%;
 	}
 				
 }
@@ -484,6 +503,17 @@ path {
 
 	#main-page{
 		margin-top: 40%;
+		opacity: .88;
 	}
+
+	.card.mt-2 .card-body img{
+		width: 100%;
+	}
+
+	.card-header, .about-me-text{
+		color: black;
+	}
+
+
 				
 }
