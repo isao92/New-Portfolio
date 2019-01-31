@@ -8,6 +8,9 @@
 	overflow-x: hidden;
 }
 
+.academicTitle, .skillsTitle{
+	font-size: 1.5rem;
+}
 
 .resultlist .card{
 	margin-left: 3%;
